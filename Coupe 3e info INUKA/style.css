@@ -1,0 +1,1019 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.listesEquipes {
+    text-align: center;
+    background-color: #1d1d31;
+    color: white;
+    position: relative;
+    top: 150px;
+    font-family: "Architects Daughter";
+}
+
+.imagePrincipale {
+    background: url("./Images/hm-tidindi.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.JeuxOlympiquesH1 {
+    /* text-align: center; */
+    top: 150px;
+    position: relative;
+    font-size: 70px;
+    margin-left: 290px;
+    font-family: "Caroline";
+}
+
+.content-table {
+    border-collapse: collapse;
+    position: relative;
+    /* top: 100px; */
+    margin: auto;
+    font-size: 1.3em;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #3f729b;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(150, 148, 148);
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #3f729b;
+}
+
+
+/* .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+   */
+
+.ballonImage {
+    background: url("./Images/st-photo-2435290.jpeg") center no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1300px;
+    width: 100%;
+}
+
+.MatchImages {
+    background: url("./Images/the-ball-stadion-football-the-pitch-46792.jpeg") center no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 665px;
+    width: 100%;
+}
+
+
+/* Match */
+
+.bxs-user:before {
+    font-size: 45px;
+}
+
+i.bx.bxs-user {
+    position: absolute;
+    top: 20px;
+}
+
+span.user.links_name {
+    top: 15px;
+    /* padding: 0 20px; */
+    position: absolute;
+}
+
+.user li {
+    list-style: none;
+}
+
+.info_content h3 {
+    text-align: center;
+    top: 15px;
+    font-size: 30px;
+    position: relative;
+}
+
+.main_content {
+    height: 70px;
+    background-color: #11101d;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 65% 2fr;
+}
+
+
+/* Button next nd Previous */
+
+.NextndPrevious {
+    padding: 0.6rem 2rem;
+    border-radius: 0.6rem;
+    color: #f5f5f5;
+    font-family: "Architects Daughter";
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    top: 250px;
+    font-size: 25px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+a.Next {
+    text-decoration: none;
+    background-color: #eee;
+    color: black;
+    transition: all 0.7s ease;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a.Next:hover {
+    background-color: #11101d;
+    color: white;
+    transition: all 0.7s ease;
+}
+
+a.Previous {
+    text-decoration: none;
+    background-color: #eee;
+    color: black;
+    transition: all 0.7s ease;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a.Previous:hover {
+    background-color: #11101d;
+    color: white;
+    transition: all 0.7s ease;
+}
+
+
+/* Listes des equipes du classemment avant les premiers rencontres */
+
+.content-table-listesEquipes {
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+    top: 220px;
+    width: 20%;
+    font-size: 1.3em;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table-listesEquipes thead tr {
+    background-color: #3f729b;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table-listesEquipes th,
+.content-table-listesEquipes td {
+    padding: 12px 15px;
+}
+
+.content-table-listesEquipes tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table-listesEquipes tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(150, 148, 148);
+}
+
+.content-table-listesEquipes tbody tr:last-of-type {
+    border-bottom: 2px solid #3f729b;
+}
+
+.tourUn {
+    text-align: center;
+    background-color: #1d1d31;
+    color: white;
+    position: relative;
+    top: 75px;
+    width: 100%;
+    font-family: "Architects Daughter";
+}
+
+.Demi-finale {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.Demi-finale h1 {
+    text-align: center;
+    background-color: #1d1d31;
+    color: white;
+    position: relative;
+    top: 25px;
+    width: 100%;
+    font-family: "Architects Daughter";
+}
+
+.Petite-finale {
+    text-align: center;
+    position: relative;
+    top: 225px;
+}
+
+.Petite-finale h1 {
+    text-align: center;
+    background-color: #1d1d31;
+    color: white;
+    position: relative;
+    width: 100%;
+    font-family: "Architects Daughter";
+}
+
+.Grande-Finale {
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.Grande-Finale h1 {
+    text-align: center;
+    background-color: #1d1d31;
+    color: white;
+    position: relative;
+    width: 100%;
+    font-family: "Architects Daughter";
+}
+
+.GroupeA {
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.GroupeA h1 {
+    background-color: black;
+    color: white;
+    width: 30%;
+    border-radius: 0.2rem;
+    margin: 0px auto;
+    justify-content: center;
+    font-family: "Architects Daughter";
+}
+
+.GroupeB {
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+.GroupeB h1 {
+    background-color: black;
+    color: white;
+    width: 30%;
+    border-radius: 0.2rem;
+    margin: 0px auto;
+    justify-content: center;
+    font-family: "Architects Daughter";
+}
+
+
+/* .tourUn
+{
+  
+  padding: 0.6rem 2rem;
+  display: inline-block;
+  background-color:  #3F729B;
+  border-radius: 0.6rem;
+  color:  #f5f5f5;
+  text-decoration: none; 
+  position: relative;
+  margin: auto;
+  top: 135px;
+  font-size: 25px;
+} */
+
+.content-table-Groupe {
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+    top: 185px;
+    font-size: 1.3em;
+    width: 20%;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table-Groupe thead tr {
+    background-color: #3f729b;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table-Groupe th,
+.content-table-Groupe td {
+    padding: 12px 15px;
+}
+
+.content-table-Groupe tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table-Groupe tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(150, 148, 148);
+}
+
+.content-table-Groupe tbody tr:last-of-type {
+    border-bottom: 2px solid #3f729b;
+}
+
+.blog-cta {
+    margin-top: 2rem;
+    /* display: flex;
+            justify-content: space-between;
+            align-items: center; */
+    font-size: 15px;
+    padding: 0 450px;
+}
+
+.button_go_to {
+    padding: 0.6rem 2rem;
+    display: inline-block;
+    background-color: black;
+    border-radius: 0.6rem;
+    color: #f5f5f5;
+    font-family: "Architects Daughter";
+    text-decoration: none;
+    position: relative;
+    margin: auto;
+    top: 275px;
+    font-size: 25px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.content-table-GroupeA {
+    border-collapse: collapse;
+    position: relative;
+    margin: auto;
+    top: 120px;
+    font-size: 1.3em;
+    /* min-width: 470px; */
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table-GroupeA thead tr {
+    background-color: #3f729b;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table-GroupeA th,
+.content-table-GroupeA td {
+    padding: 12px 13px;
+}
+
+.content-table-GroupeA tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table-GroupeA tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(150, 148, 148);
+}
+
+.content-table-GroupeA tbody tr:last-of-type {
+    border-bottom: 2px solid #3f729b;
+}
+
+.content-table-GroupeB {
+    border-collapse: collapse;
+    position: relative;
+    top: 240px;
+    margin: auto;
+    font-size: 1.3em;
+    /* min-width: 470px; */
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table-GroupeB thead tr {
+    background-color: #3f729b;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table-GroupeB th,
+.content-table-GroupeB td {
+    padding: 12px 13px;
+}
+
+.content-table-GroupeB tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table-GroupeB tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(150, 148, 148);
+}
+
+.content-table-GroupeB tbody tr:last-of-type {
+    border-bottom: 2px solid #3f729b;
+}
+
+.groupeAetgroupeB {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.BtnValider {
+    padding: 0.2rem 0.3rem;
+    display: inline-block;
+    background-color: black;
+    border-radius: 0.6rem;
+    color: #f5f5f5;
+    text-decoration: none;
+    position: relative;
+    margin: auto;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.InputScore {
+    width: 120%;
+}
+
+
+/* Classemnet */
+
+.ballonImageClassement {
+    background: url("./Images/st-photo-2435290.jpeg") center no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+}
+
+.CGroupeA {
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    font-size: 1.3em;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.CGroupeA thead tr {
+    background-color: #3f729b;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.CGroupeA th,
+.CGroupeA td {
+    padding: 12px 15px;
+}
+
+.CGroupeA tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.CGroupeA tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(150, 148, 148);
+}
+
+.CGroupeA tbody tr:last-of-type {
+    border-bottom: 2px solid #3f729b;
+}
+
+.CGroupeB {
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    font-size: 1.3em;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.CGroupeB thead tr {
+    background-color: #3f729b;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.CGroupeB th,
+.CGroupeB td {
+    padding: 12px 15px;
+}
+
+.CGroupeB tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.CGroupeB tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(150, 148, 148);
+}
+
+.CGroupeB tbody tr:last-of-type {
+    border-bottom: 2px solid #3f729b;
+}
+
+#Un {
+    width: 30px;
+    border-radius: 30px;
+    background: #3f729b;
+    text-align: center;
+}
+
+#Quatre {
+    width: 30px;
+    border-radius: 30px;
+    background: red;
+    text-align: center;
+}
+
+.h1ClassementGA {
+    margin: auto;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    top: 60px;
+    width: 25%;
+    position: relative;
+    background: #3f729b;
+}
+
+.h1ClassementGB {
+    margin: auto;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    top: 85px;
+    width: 25%;
+    position: relative;
+    background: #3f729b;
+}
+
+@media screen and (max-width: 680px) {}
+
+
+/* Finale */
+
+.content-table-Finale {
+    border-collapse: collapse;
+    position: relative;
+    top: 170px;
+    background-color: rgb(150, 148, 148);
+    font-size: 1.3em;
+    margin: 0px auto;
+    /* min-width: 470px; */
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table-Finale thead tr {
+    background-color: #3f729b;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table-Finale th,
+.content-table-Finale td {
+    padding: 12px 13px;
+}
+
+.content-table-Finale tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table-Finale tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(150, 148, 148);
+}
+
+.content-table-Finale tbody tr:last-of-type {
+    border-bottom: 2px solid #3f729b;
+}
+
+.content-table-Petite-Finale {
+    border-collapse: collapse;
+    background-color: rgb(150, 148, 148);
+    position: relative;
+    top: 285px;
+    font-size: 1.3em;
+    margin: 0px auto;
+    /* min-width: 470px; */
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table-Petite-Finale thead tr {
+    background-color: #3f729b;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table-Petite-Finale th,
+.content-table-Petite-Finale td {
+    padding: 12px 13px;
+}
+
+.content-table-Petite-Finale tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table-Petite-Finale tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: rgb(150, 148, 148);
+}
+
+.content-table-Petite-Finale tbody tr:last-of-type {
+    border-bottom: 2px solid #3f729b;
+}
+
+.content-table-Grande-Finale {
+    border-collapse: collapse;
+    background-color: rgb(150, 148, 148);
+    position: relative;
+    top: 200px;
+    font-size: 1.3em;
+    margin: 0px auto;
+    /* min-width: 470px; */
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table-Grande-Finale thead tr {
+    background-color: #3f729b;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table-Grande-Finale th,
+.content-table-Grande-Finale td {
+    padding: 12px 13px;
+}
+
+.content-table-Grande-Finale tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table-Grande-Finale tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table-Grande-Finale tbody tr:nth-child(2n+1) {
+    background-color: white;
+}
+
+.content-table-Grande-Finale tbody tr:last-of-type {
+    border-bottom: 2px solid #3f729b;
+}
+
+.logo {
+    width: 17%;
+    float: left;
+}
+
+
+/* Index board */
+
+.sidebar {
+    height: 100%;
+    width: 240px;
+    background: #11101d;
+    padding: 6px 14px;
+}
+
+.sidebar .logo_content .logo {
+    color: #fff;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+.logo_content .logo i {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.logo_content .logo .logo_name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sidebar ul {
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    position: relative;
+    height: 60px;
+    margin: 0 5px;
+    width: 100%;
+    list-style: none;
+    line-height: 50px;
+}
+
+.sidebar ul li .bx-search {
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    font-size: 22px;
+}
+
+.sidebar ul li input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #1d1d31;
+    padding-left: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+}
+
+.sidebar ul li a:hover {
+    color: #11101d;
+    background: #fff;
+}
+
+.sidebar ul li i {
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* Card */
+
+
+/* INDEX */
+
+.ImageCard {
+    background: url("./Images/pexels-photo-2098578.jpeg") center no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 680px;
+    /* width: 100%; */
+}
+
+.ImageCard a {
+    text-decoration: none;
+}
+
+.logoImgCard img {
+    width: 60%;
+}
+
+.card {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    position: relative;
+    top: 170px;
+    align-items: center;
+    /* max-width: 700px; */
+    /* border-radius: 10px; */
+    padding: 15px;
+    cursor: pointer;
+    transform: rotateY(-30deg) rotateX(30deg);
+    /* border-bottom: 5px rgba(0, 0, 0, 0.2); */
+    /* border-right: 5px rgba(0, 0, 0, 0.2); */
+    background-color: whitesmoke;
+    /* box-sizing: 10px 10px 10px rgba(0, 0, 0, 0.5); */
+    transition: 0.3s ease-out;
+}
+
+.card:hover {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    transform: rotateY(-30deg) rotateX(30deg) scale(1.05) translateY(-20px) translateX(-20px);
+}
+
+.text h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: red;
+}
+
+.text span {
+    font-size: 17px;
+    color: black;
+    font-weight: 900;
+    font-family: "Poppins Regular 400", sans-serif;
+}
+
+.text i {
+    font-size: 25px;
+}
+
+.scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid black;
+    position: absolute;
+    left: 50%;
+    bottom: 130px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.scroll-down::before,
+.scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border: 2px solid black;
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::before {
+    top: 30%;
+    animation-delay: 0.3s;
+    /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+    0% {
+        /* top:20%; */
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        top: 90%;
+        opacity: 0;
+    }
+}
+
+.BtnPdf div {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    position: relative;
+    justify-content: center;
+    width: 350px;
+    margin: auto;
+    top: 380px;
+    /* background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c); */
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.BtnPdf i {
+    margin: 3px;
+}
+
+.container_principale {
+    display: grid;
+    grid-template-columns: 19% 1fr;
+}
+
+
+/* MatchesGroupeA */
+
+.MatchImagesGroupeA {
+    background: url("./Images/the-ball-stadion-football-the-pitch-46792.jpeg") center no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 745px;
+    width: 100%;
+}
+
+.NextndPreviousGa {
+    padding: 0.6rem 2rem;
+    border-radius: 0.6rem;
+    color: #f5f5f5;
+    font-family: "Architects Daughter";
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    top: 180px;
+    font-size: 25px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    .container_principale {
+        display: flex;
+    }
+}
